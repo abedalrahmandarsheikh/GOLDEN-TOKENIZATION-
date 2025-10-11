@@ -1,35 +1,32 @@
-# Copilot Instructions for GOLDEN-TOKENIZATION
+# Copilot Agent Instructions for GOLDEN-TOKENIZATION
 
-## Overview
-"GOLDEN TOKENIZATION" is a blockchain-based platform for tokenizing assets and companies, integrating AI and metaverse technologies to enable smart, transparent, and secure digital investment. The project is in its early stages, with the architecture and codebase still under development.
+## نظرة عامة / Overview
+"GOLDEN TOKENIZATION" هو مشروع ناشئ يهدف إلى بناء منصة قائمة على البلوكشين لتجزئة الأصول والشركات، مع دمج تقنيات الذكاء الاصطناعي والميتافيرس. الكود الحالي في مرحلة التأسيس، مع وجود ملف توثيقي رئيسي فقط (`README.md`).
 
-## Key Principles
-- **Blockchain Focus:** All core logic should be designed with blockchain integration in mind. Smart contracts, asset tokenization, and secure transaction flows are central.
-- **AI & Metaverse Integration:** The platform aims to leverage AI for investment intelligence and metaverse for immersive experiences. Design with extensibility for these domains.
-- **Arabic Localization:** User-facing content and documentation should support Arabic as a primary language.
+## الهيكل الحالي للمشروع / Current Structure
+- لا يوجد حالياً إلا ملف `README.md` في الجذر.
+- لا توجد شيفرة تنفيذية أو بنية مجزأة بعد (لا عقود ذكية، لا خدمات خلفية، لا واجهات أمامية).
+- جميع التعليمات البرمجية المستقبلية يجب أن تراعي التوسع نحو: عقود ذكية، ذكاء اصطناعي، تكامل ميتافيرس، ودعم اللغة العربية.
 
-## Project Structure
-- The current codebase is minimal. The main documentation is in `README.md`.
-- Expect future directories for smart contracts, backend services, frontend UI, and AI modules.
+## المبادئ الأساسية / Key Principles
+- **التركيز على البلوكشين:** كل منطق أساسي يجب أن يُصمم مع قابلية التكامل مع البلوكشين (تجزئة الأصول، تدفقات المعاملات الآمنة).
+- **دعم الذكاء الاصطناعي والميتافيرس:** صمم الأكواد لتكون قابلة للتوسع نحو التحليلات الذكية والتجارب الغامرة.
+- **التوثيق ثنائي اللغة:** أي وحدة جديدة يجب أن تحتوي على توثيق عربي/إنجليزي واضح.
 
-## Development Conventions
-- **Documentation:** All new modules must include clear, bilingual (Arabic/English) documentation.
-- **Security:** Prioritize security best practices, especially for blockchain and user data.
-- **Extensibility:** Write modular, extensible code to accommodate rapid feature growth.
+## أنماط المشروع / Project Patterns
+- عند إضافة ملفات جديدة، استخدم أسماء واضحة تصف الغرض (مثال: `AssetToken.sol`, `InvestmentAI.py`).
+- أضف تعليقات TODO توضح الوظائف المستقبلية عند بناء أي هيكل مبدئي.
+- لا توجد حتى الآن أوامر بناء أو اختبار أو نشر محددة – يجب توثيق أي سير عمل جديد مباشرة هنا.
 
-## Example Patterns
-- Use clear, descriptive names for contracts, services, and modules (e.g., `AssetToken`, `InvestmentAI`).
-- Document data flows for tokenization and investment logic as they are implemented.
+## نقاط التكامل المستقبلية / Future Integration Points
+- نشر وتفاعل مع العقود الذكية (يفضل Solidity/Ethereum)
+- تكامل نماذج الذكاء الاصطناعي لتحليل الاستثمار
+- ربط واجهات الميتافيرس لعرض الأصول بشكل تفاعلي
 
-## Getting Started
-- Review `README.md` for the project vision and goals.
-- When adding new components, create stubs with docstrings and TODOs outlining intended functionality.
-
-## Future Integration Points
-- Smart contract deployment and interaction (likely via Solidity/Ethereum or similar)
-- AI model integration for investment analytics
-- Metaverse platform APIs for immersive asset visualization
+## تعليمات للوكيل البرمجي / Agent Guidance
+- راجع دائماً `README.md` لأي تحديثات في الرؤية أو الأهداف.
+- عند إضافة أي مكون جديد، أنشئ ملف توثيق مبدئي يوضح الغرض، البيانات المتوقعة، وتدفق العمل.
+- التزم بأفضل ممارسات الأمان عند التعامل مع بيانات المستخدم أو منطق البلوكشين.
 
 ---
-
-**Update this file as the architecture evolves.**
+**حدث هذا الملف مع أي تطور في بنية المشروع أو سير العمل.**
